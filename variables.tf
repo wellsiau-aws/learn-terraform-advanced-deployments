@@ -4,6 +4,12 @@ variable "region" {
   default     = "us-west-2"
 }
 
+variable "protocol" {
+  description = "The protocol for Load balancer"
+  type        = string
+  default     = "HTTPS"
+}
+
 variable "vpc_cidr_block" {
   description = "CIDR block for VPC"
   type        = string
