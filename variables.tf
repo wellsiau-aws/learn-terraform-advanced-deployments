@@ -7,7 +7,7 @@ variable "region" {
 variable "protocol" {
   description = "The protocol for Load balancer"
   type        = string
-  default     = "HTTPS"
+  default     = "HTTP"
 }
 
 variable "vpc_cidr_block" {
